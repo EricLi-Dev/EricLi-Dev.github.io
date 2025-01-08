@@ -1,6 +1,6 @@
 # The Site Configuration
 include:
-  - _tabs
+  - _posts
 
 # Import the theme
 theme: jekyll-theme-chirpy

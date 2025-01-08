@@ -7,12 +7,12 @@ refactor: true
 
 <!-- Displays content from the _tabs/about.md -->
 {% capture about_content %}
-  {% include_relative _tabs/about.md %}
+  {% include_relative _posts/about.md %}
 {% endcapture %}
 
 {% assign about_body = about_content | split: "---" | last %}
 
-<div class="about-section">
+<div class="about">
   {{ about_body | markdownify }}
 </div>
 <!-- End of _tabs.about.md section -->

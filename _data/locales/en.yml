@@ -11,7 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   categories: Categories
-  home: Home2
+  home: Home
   archives: Archives
   about: About
 

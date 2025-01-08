@@ -2,6 +2,12 @@
 @use '../abstracts/breakpoints' as bp;
 @use '../abstracts/placeholders';
 
+// Styling for the about section in the home page
+// content in _tabs/about.md
+.about {
+  padding-bottom: 10rem;
+}
+
 #post-list {
   margin-top: 2rem;
 
