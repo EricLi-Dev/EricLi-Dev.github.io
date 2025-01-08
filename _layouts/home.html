@@ -5,17 +5,25 @@ refactor: true
 
 {% include lang.html %}
 
-<!-- Displays content from the _tabs/about.md -->
+<!-- Start of About Section (_posts/about.md) -->
 {% capture about_content %}
   {% include_relative _posts/about.md %}
 {% endcapture %}
-
 {% assign about_body = about_content | split: "---" | last %}
 
-<div class="about">
-  {{ about_body | markdownify }}
+<div class="about-container">
+  <!-- Image Section -->
+  <div class="about-image">
+    <img src="/assets/img/about-image.jpg" alt="About Image">
+  </div>
+
+  <!-- About Section -->
+  <div class="about-content">
+    {{ about_body | markdownify }}
+  </div>
+
 </div>
-<!-- End of _tabs.about.md section -->
+<!-- End of About Section -->
 
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
 {% assign all_normal = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}

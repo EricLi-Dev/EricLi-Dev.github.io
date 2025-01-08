@@ -8,3 +8,7 @@
 ';
 
 /* append your custom style below */
+// Disable shiny shimmer on images
+.shimmer::before{
+  background:none;
+}
