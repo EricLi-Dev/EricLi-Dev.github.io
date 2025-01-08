@@ -1,4 +1,6 @@
 # The Site Configuration
+include:
+  - _tabs
 
 # Import the theme
 theme: jekyll-theme-chirpy
