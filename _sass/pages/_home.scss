@@ -27,7 +27,7 @@
 }
 
 // Smartphones
-@media (min-width:320px) {
+@media only screen and (max-device-width: 480px) {
   .about-image {
     float: none;
     margin: auto;
