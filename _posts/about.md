@@ -2,7 +2,16 @@
 ---
 
 # About
+I like to build things.
 
-This is content from the about page.
+My main interests are in machine learning, systems engineering, and compilers.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Currently, I'm trying to learn more Rust and tinker with Pytorch through open source to combine more of my interests.
+
+Things I want to do:
+- Complete AOC w/ Rust.
+- Build an Operating System in Rust.
+- Get started on Pytorch official tutorials and contribution guides.
+- Read through DDIA.
+
+The goal is to write about whatever I'm doing and to learn more about distributed computing, ML systems engineering, and general low-level systems.
