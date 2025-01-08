@@ -14,4 +14,4 @@ Things I want to do:
 - Get started on Pytorch official tutorials and contribution guides.
 - Read through DDIA.
 
-I'll be writing about whatever I'm doing and what I learn about distributed computing, ML systems engineering, and general low-level systems.
+I'll be documenting whatever I learn about in distributed computing, ML systems engineering, and general low-level systems.
