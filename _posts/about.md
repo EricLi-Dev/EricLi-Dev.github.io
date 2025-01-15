@@ -13,5 +13,6 @@ Things I want to do:
 - Build an Operating System in Rust.
 - Get started on Pytorch official tutorials and contribution guides.
 - Read through DDIA.
+- Learn about GPU/ML Systems Engineering.
 
-I'll be documenting whatever I learn about in distributed computing, ML systems engineering, and general low-level systems.
+This blog is a means for me to explain concepts in distributed computing, ML systems engineering, and general low-level systems as I learn them.
