@@ -89,7 +89,7 @@ fn panic(_info: &PanicInfo) -> ! {
 }
 ```
 
-The [`PanicInfo` parameter]() is a struct that provides information about the panic. It includes the file, line, where the panic happened, and the optional panic message.
+The [`PanicInfo` parameter](https://doc.rust-lang.org/stable/core/panic/struct.PanicInfo.html) is a struct that provides information about the panic. It includes the file, line, where the panic happened, and the optional panic message.
 
 The function should never return, so it is marked as a [diverging function](https://doc.rust-lang.org/1.30.0/book/first-edition/functions.html#diverging-functions) by returning the ["never" type](https://doc.rust-lang.org/nightly/std/primitive.never.) `!`.
 
@@ -106,7 +106,7 @@ Stack Unwinding
 
 However, stack unwinding is a complicated process and requires some OS-specific libraries so we won't be using it here. Writing a custom `eh_personality` language item implementation is possible but should only be done as a last resort as language items are highly unstable implementation details.
 
-We can avoid this error by setting the panic strategy to [abort on panic]() instead.
+We can avoid this error by setting the panic strategy to [abort on panic](https://doc.rust-lang.org/book/ch09-01-unrecoverable-errors-with-panic.html) instead.
 
 ```toml
 [package]
